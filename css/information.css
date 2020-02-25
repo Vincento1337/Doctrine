@@ -1,0 +1,147 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Roboto, sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0 auto;
+	width: 1140px;
+}
+
+.header {
+	padding: 35px 0;
+	background-color: #000000;
+}
+
+.header__nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header__logo {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.header__first-letter {
+	margin-right: -10px;
+	font-size: 36px;
+	color: #437BBD;
+}
+
+.header__letters {
+	font-size: 35px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.header__menu {
+	display: flex;
+	margin: 0;
+	list-style: none;
+}
+
+.menu__item {
+	margin-left: 65px;
+}
+
+.item__link {
+	text-decoration: none;
+	font-size: 25px;
+	color: #ffffff;
+	transition: color 0.5s ease;
+}
+
+.item__link:hover {
+	color: #437BBD;
+	transition: all 0.5s ease;
+}
+
+.useful-information {
+	padding-bottom: 190px;
+}
+
+.information-title {
+	position: relative;
+	margin-top: 88px;
+	margin-bottom: 98px;
+	width: 70%;
+	font-size: 25px;
+	color: #000000;
+}
+
+.information-title:after {
+	position: absolute;
+	display: block;
+	content: "";
+	top: 70px;
+	width: 250px;
+	height: 6px;
+	border-radius: 5px;
+	background-color: #6764DC;
+}
+
+.information-item {
+	margin-bottom: 50px;
+	width: 610px;
+	border: 1px solid #E2E3EE;
+	border-radius: 10px;
+	background-color: transparent;
+}
+
+.information__pic {
+	width: 610px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.item-title {
+	margin: 20px;
+}
+
+.item-link {
+	text-decoration: none;
+	color: #000000;
+}
+
+.footer {
+	padding: 32px 0;
+	background-color: #000000;
+}
+
+.footer__wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer__about-link {
+	font-size: 17px;
+	color: #ffffff;
+	text-decoration: none;
+	outline: none;
+}
+
+.footer__subscribe-link {
+	font-size: 17px;
+	color: #ffffff;
+	text-decoration: none;
+	outline: none;
+}
+
+.social {	
+	display: flex;
+}
+
+.social__icon {
+	margin-left: 25px;
+	width: 25px;
+	height: 25px;
+}
